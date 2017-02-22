@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Geneva, Verdana, sans-serif;
+  background-color: darkorange;
+}
+
+ .Table
+    {
+        display: table;
+        
+    }
+    
+    .Heading
+    {
+        display: table-row;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .Row
+    {
+        display: table-row;
+    }
+
+    .Cell1
+    {
+        display: table-cell;
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 50px;
+    }
+    
+    .Cell2
+    {
+        display: table-cell;
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 350px;
+    }
+    
+    .Cell3
+    {
+        display: table-cell;
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+        width: 100px;
+    }
+
+.profile {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.clear-fl {
+  clear:both;
+}
+
+.ProfileItem {
+  margin-left: 200px;
+  
+}
+
+.ProfilePicture {
+  float:left;
+  
+}
+
+#app{
+    position: relative;
+    margin: auto;
+    width: 60%;
+}
+
+.searchText {
+width: 300px;
+height: 36px;
+    
+}
+
+.searchPanel {
+  margin-top: 20px;
+  
+}
+
+.findButton{
+  height: 36px;
+}
+
+
+
+
+
